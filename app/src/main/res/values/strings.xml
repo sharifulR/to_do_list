@@ -11,4 +11,11 @@
     <string name="_00_00_0000">00/00/0000</string>
     <string name="time">Time :</string>
     <string name="_00_00">00:00</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="new_user">New user</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
 </resources>

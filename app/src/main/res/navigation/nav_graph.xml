@@ -8,20 +8,23 @@
     <fragment
         android:id="@+id/toDoListFragment"
         android:name="com.example.todoapp.ToDoListFragment"
-        android:label="fragment_to_do_list"
+        android:label="ToDo List"
         tools:layout="@layout/fragment_to_do_list" >
         <action
             android:id="@+id/action_toDoListFragment_to_newToDoFragment"
             app:destination="@id/newToDoFragment" />
+        <action
+            android:id="@+id/action_toDoListFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/newToDoFragment"
         android:name="com.example.todoapp.NewToDoFragment"
-        android:label="fragment_new_to_do"
+        android:label="New ToDo"
         tools:layout="@layout/fragment_new_to_do" />
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.todoapp.LoginFragment"
-        android:label="fragment_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login" />
 </navigation>

@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.113" />
         <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/layout/fragment_login.xml" value="0.196875" />
         <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/layout/fragment_new_to_do.xml" value="0.196875" />
         <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/layout/fragment_to_do_list.xml" value="0.196875" />
+        <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/layout/todo_row.xml" value="0.18854166666666666" />
+        <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/menu/row_item_menu.xml" value="0.18854166666666666" />
+        <entry key="..\:/pencilBoxTraining/ToDoApp/app/src/main/res/menu/todo_list_menu.xml" value="0.196875" />
       </map>
     </option>
   </component>

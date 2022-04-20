@@ -7,14 +7,14 @@ import com.example.todoapp.entities.ToDoModel
 @Dao
 interface ToDoDao {
     @Insert
-    suspend fun insertToDo(toDoModel: ToDoModel)
+    suspend fun insertTodo(todoModel: ToDoModel)
 
     @Update
-    suspend fun updateToDo(toDoModel: ToDoModel)
+    suspend fun updateTodo(todoModel: ToDoModel)
 
     @Delete
-    suspend fun deleteToDo(toDoModel: ToDoModel)
+    suspend fun deleteTodo(todoModel: ToDoModel)
 
     @Query("select * from tbl_todo where user_id = :userId")
-    fun getToDosByUserId(userId: Long) : LiveData<List<ToDoModel>>
+    fun getTodosByUserId(userId: Long) : LiveData<List<ToDoModel>>
 }

@@ -15,5 +15,10 @@ data class ToDoModel(
     val priority: String,
     val date:Long=System.currentTimeMillis(),
     val time:Long,
+    val day:Int,
+    val month:Int,
+    val year:Int,
+    val hour:Int,
+    val minute:Int,
     val completed: Boolean=false
 )
